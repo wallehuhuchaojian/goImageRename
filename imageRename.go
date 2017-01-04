@@ -64,6 +64,9 @@ func main() {
 
 
 }
+/**
+根据路径获取配置文件并转换成config
+ */
 
 func parseFile(partenPaths string) (Config){
 	var config Config
